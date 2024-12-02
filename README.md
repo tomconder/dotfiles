@@ -1,8 +1,6 @@
 # dotfiles
 
-This repo contains the configuration to setup my machines. This is using [chezmoi](https://chezmoi.io), the dotfile manager to setup the install.
-
-This automated setup is currently only configured for Fedora machines.
+This repository contains my dotfiles managed with [chezmoi](https://chezmoi.io).
 
 ## How to run
 
