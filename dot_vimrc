@@ -1,0 +1,37 @@
+set nocompatible
+filetype off
+set title
+
+" vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" call vundle
+call vundle#begin()
+
+" add plugins
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-surround'
+Plugin 'ycm-core/YouCompleteMe'
+
+" end vundle
+call vundle#end()
+filetype plugin indent on
+
+" core parameters
+syntax on
+set hlsearch
+set ruler
+set mouse=a
+set noerrorbells
+set novisualbell
+
+" indenting
+set autoindent
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set list listchars=tab:\ \ ,trail:.
+set showbreak=*>
